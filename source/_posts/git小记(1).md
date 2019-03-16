@@ -2,7 +2,6 @@
 title: git小记(1)
 date: 2018-06-24 21:46:07
 tags:
-description: git的一点笔记
 ---
 ##git init
 * 该命令能初始化本地仓库,在当前目录新建一个git代码库.
