@@ -8,7 +8,7 @@ HTML，超文本标记语言（英语：HyperText Markup Language，简称：HTM
 超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的[具体]内容。
 ***
 
-####一、最基本的HTML5结构
+#### 一、最基本的HTML5结构
 ```
 <!DOCTYPE html>
 <html> 
@@ -25,7 +25,7 @@ HTML，超文本标记语言（英语：HyperText Markup Language，简称：HTM
 HTML标准：[https://www.w3.org/TR/html51/](https://www.w3.org/TR/html51/)
 MDN：[https://developer.mozilla.org/zh-CN/](https://developer.mozilla.org/zh-CN/)
 ***
-####二、HTML常用标签基本用法
+#### 二、HTML常用标签基本用法
 1.a标签定义超链接，指定页面间的跳转（HTTP get请求）。链接可以指向外部链接或者页面内部id锚点，可以在当前页面打开，新开窗口。
 
 ```
@@ -163,7 +163,7 @@ iframe：
 <p>我的母亲是 <span style="color:blue">伟大</span> 的。</p>
 ```
 ***
-####三、HTML注意事项
+#### 三、HTML注意事项
 1、HTML标签和属性是不区分大小写的，建议HTML标签和属性都小写，属性值必须用双引号包围。
 
 2、HTML标签都是以开始标签起始，以结束标签终止。大部分HTML标签都是成对出现的，称为双标签，比如：p标签、div标签，也有的HTML标签在开始标签中结束的标签，称为单标签，比如：hr标签、br标签。大多数 HTML 元素可拥有属性，文本内容都是写在开始标签与结束标签之间。

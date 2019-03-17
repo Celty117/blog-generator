@@ -3,8 +3,8 @@ title: CSS经常用到的东西
 date: 2018-11-29 16:58:07
 tags:
 ---
-###一、左右布局
-#####1.float属性实现左右布局
+### 一、左右布局
+##### 1.float属性实现左右布局
 float属性是css中关于布局的一个关键属性，其意为将该块状区域脱离父级标签的文档流，left属性值使该区域向父级标签区域的左侧边界放置，right属性值使该区域块向父级标签的右侧边界放置。float区域块不会被父级区域块包裹，造成前端常见的高度塌陷问题，解决办法是清除浮动。
 代码：
 ```
@@ -48,8 +48,8 @@ float属性是css中关于布局的一个关键属性，其意为将该块状区
 }
 ```
 ***        
-###二、左中右布局
-#####1.float属性实现左中右布局
+### 二、左中右布局
+##### 1.float属性实现左中右布局
 float属性同样也可以实现左中右布局。
 代码：
 ```
@@ -94,8 +94,8 @@ float属性同样也可以实现左中右布局。
 以上代码展示出来的是这样的：![左中右布局](https://upload-images.jianshu.io/upload_images/7017681-db9b30792725b6df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ***
-###三、水平居中
-#####1.给固定宽度的元素设置水平居中
+### 三、水平居中
+##### 1.给固定宽度的元素设置水平居中
 如果是一个固定宽度的元素，只要设置好宽度，margin的左右值为auto就行了。
 ```
 .center {
@@ -104,7 +104,7 @@ float属性同样也可以实现左中右布局。
 	margin-right: auto;
 }
 ```
-#####2.利用inline-block实现水平居中方法
+##### 2.利用inline-block实现水平居中方法
 仅inline-block属性是无法让元素水平居中，他的关键之处要在元素的父容器中设置text-align的属性为“center”，这样才能达到效果：
 HTML代码：
 ```
@@ -133,7 +133,7 @@ body{
 }
 ```
 效果：![居中.png](https://upload-images.jianshu.io/upload_images/7017681-ab38c3f9c7df1c33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#####3.利用绝对定位实现水平居中
+##### 3.利用绝对定位实现水平居中
 HTML代码：
 ```
 <!DOCTYPE html>
@@ -169,8 +169,8 @@ body{
 效果:![利用绝对定位实现居中](https://upload-images.jianshu.io/upload_images/7017681-6ee00dfe558d413b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ***
 
-###四、垂直居中
-#####1.利用line-height将内容垂直居中
+### 四、垂直居中
+##### 1.利用line-height将内容垂直居中
 这种方法前提在于字体大小不能大于line-height
 HTML代码：
 ```

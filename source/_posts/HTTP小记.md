@@ -51,7 +51,7 @@ Content-Type: application/x-www-form-urlencoded
 4. 终于点了？可以看到请求的前三部分了
 5. 如果有请求的第四部分，那么在 FormData 或 Payload 里面可以看到
 ***
-##http响应
+## http响应
 请求了之后，一般都会得到一个响应,除非断网或者服务器宕机了
 ##### 响应的格式
 ```
@@ -68,7 +68,7 @@ GET 请求和 POST 请求对应的响应可以一样，也可以不一样，响�
 2. 状态解释没什么用
 3. 第 2 部分中的 Content-Type 标注了第 4 部分的格式
 4. 第 2 部分中的 Content-Type 遵循 MIME 规范
-#####用 Chrome 查看响应
+##### 用 Chrome 查看响应
 1. 打开 Network
 2. 输入网址
 3. 选中第一个响应
