@@ -16,7 +16,7 @@ align-content   多行/列内容对齐方式（用的较少）
 - row:  从左向右一行排列，默认不换行。
 - row-reverse:  从右向左一行排列，默认不换行。
 - column:  从上到下一列排列。
-- column:  从下到上一列排列。
+- column-reverse:  从下到上一列排列。
 ---
 
 2. flex-wrap:
